@@ -1,0 +1,178 @@
+
+/* 
+    Created on : Mar 18, 2016, 3:01:56 PM
+    Author     : herigutierrez
+*/
+
+/* Base Styles */
+
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  color: #878787;
+  margin: 0;
+  text-align: center;
+  font: 1em/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h3 {
+  font-size: 1.25em; /* 20px/16px  */
+  color: #48525c;
+  line-height: 1.2;
+  margin-bottom: 1.7em; /* 34px */
+}
+
+.first-title {
+   line-height: 100px; 
+}
+
+/* Main Page Styles */
+
+.main-header {
+    padding-top: 170px;
+    height: 850px;
+    background: #98dafc url('../img/centralpark2.jpg') no-repeat center;
+    background-size: cover;
+}
+
+header {
+  line-height: 1.5;
+}
+
+header .profile-image {
+  margin-top: 50px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid white;
+  transition: all .5s;
+}
+
+header .profile-image:hover {
+  transform: scale(1.2) rotate(5deg);
+}
+
+.first-title {
+    color: white;
+    font-size: 3.5em;
+}
+
+.second-title {
+    color: white;
+    font-size: 2em; 
+}
+
+.arrow {
+    width: 80px;
+}
+
+.primary-content,
+.secondary-content,
+.main-header,
+.main-footer {
+    text-align: center;
+}
+
+.primary-content,
+.secondary-content
+{
+    padding: 25px;
+    padding-bottom: 95px;
+}
+
+footer {
+   padding-top: 60px;
+   padding-bottom: 60px;
+   border-bottom: 10px solid #98dafc;
+}
+
+.t-border {
+    border-top: 2px solid #dfe2e6;
+}
+
+
+/* Footer Styles */
+
+footer {
+  width: 100%;
+  min-height: 30px;
+  padding: 20px 0 40px 20px;
+}
+
+footer .copyright {
+  top: -8px;
+  color: #ccc;
+}
+
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer ul li {
+  display: inline-block;
+}
+
+
+/* Social Media Styles */
+
+a.social {
+  display: inline-block;
+  text-indent: -9999px;
+  margin-left: 5px;
+  width: 30px;
+  height: 30px;
+  background-size: 30px 30px;
+  opacity: .4;
+  transition: all .5s;
+}
+a.twitter {
+ background: url('../img/twitter.svg');
+}
+a.linkedin {
+  background: url('../img/linkedin.svg');
+}
+a.github {
+  background: url('../img/github.svg');
+}
+a.social:hover {
+  opacity: 1;
+}
+.clearfix {
+  clear: both;
+}
+
+
+/* Layout Styles */
+
+.primary-content,
+.secondary-content {
+    width: 75%;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: auto;
+    max-width: 960px;
+}
+
+/* Psuedo Classes */
+
+a:link {
+  color: rgb(255, 169, 73);
+  text-decoration: none;
+}
+
+a:visited {
+  color: lightblue;
+}
+
+a:hover {
+  color: rgba(255, 169, 73, .4);
+}
+
+a:active {
+  color: lightcoral;
+}
