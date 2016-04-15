@@ -58,7 +58,7 @@ h3 {
 }
 
 .nav li {
-  /*padding: 4px 50px 0px 15px;*/
+  padding: 4px 50px 0px 15px;
   text-align: center;
 }
 
@@ -220,6 +220,13 @@ a:active {
 
 @media (max-width: 799px) {
   .nav li {
+    fontsize: .5em;
     padding: 7px 9px;
+  }
+}
+
+@media (max-width: 380px) {
+  .nav li {
+    line-height: 1em;
   }
 }
