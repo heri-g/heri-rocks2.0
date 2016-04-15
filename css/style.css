@@ -227,6 +227,24 @@ a:active {
 
 @media (max-width: 380px) {
   .nav li {
+    padding: 0;
     line-height: 1em;
+  }
+}
+
+@media (max-width: 320px) {
+  #mainNav {
+    float: right;
+    font-size: 1.125em;
+    margin-right: 5%;
+    text-align: right;
+    width: 100%;
+  }
+}
+
+@media (max-width: 320px) {
+  #mainNav
+  .name {
+    padding: 0;
   }
 }
