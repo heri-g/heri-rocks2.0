@@ -58,7 +58,7 @@ h3 {
 }
 
 .nav li {
-  padding: 4px 50px 0px 15px;
+  /*padding: 4px 50px 0px 15px;*/
   text-align: center;
 }
 
@@ -208,4 +208,18 @@ a:hover {
 
 a:active {
   color: #dfe3ee;
+}
+
+/* MEDIA QUERIES */
+
+@media (min-width: 800px) {
+  .nav li {
+    padding: 4px 50px 0px 15px;
+  }
+}
+
+@media (max-width: 799px) {
+  .nav li {
+    padding: 7px 9px;
+  }
 }
